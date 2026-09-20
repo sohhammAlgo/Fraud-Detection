@@ -1,9 +1,9 @@
 import joblib
 
 
-MODEL_PATH = "ml/model.pkl"
-FEATURES_PATH = "ml/features.pkl"
-THRESHOLD_PATH = "ml/threshold.pkl"
+MODEL_PATH = "models/model.pkl"
+FEATURES_PATH = "models/features.pkl"
+THRESHOLD_PATH = "models/threshold.pkl"
 
 
 model = joblib.load(MODEL_PATH)
